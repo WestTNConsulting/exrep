@@ -3,11 +3,11 @@ VERSION:3.0
 N;CHARSET=UTF-8:Whitehorn;Amanda;; ;
 FN: Amanda Whitehorn
 ORG:West TN Consulting
-COMPANY:West TN Consulting
+COMPANY:West TN Consulting | IT consulting
 TITLE:Executive Representative 
 
 ADR;CHARSET=UTF-8;TYPE=WORK:;;;;;;
-TEL;TYPE=WORK,VOICE:(901) 538-9954 
+TEL;TYPE=WORK,VOICE:(901)538-9954 
 
 TEL;TYPE=Work,Fax:
 TEL;TYPE=Home,VOICE:
@@ -17,10 +17,10 @@ TEL;TYPE=SIGNAL:
 EMAIL;TYPE=Email:amanda.whitehorn@westtn.consulting,
 URL;TYPE=Digital Business Card:https://github.com/WestTNConsulting/exrep
 
-URL;TYPE=Location:
+URL;TYPE=Location: Collierville, TN
 KEY:OPENPGP4FPR:
 UID:SMART vCARD-100041255
-URL;TYPE=Website:
+URL;TYPE=Website:westtn.consulting,
 URL;TYPE=WhatsApp:
 
 
