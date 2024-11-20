@@ -1,0 +1,204 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.App {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    margin: auto;
+    display: block;
+    background-color: #b0a3a3;
+    width: 100%;
+    color: #12446c;
+    border-radius: 10px;
+}
+
+.profile-info,
+.cta,
+.about,
+.interests,
+.social-media {
+    padding: 5 5px;
+}
+
+.profile-img > img {
+    padding: 5px;
+    width: 80%;
+    border-radius: 50%;
+    height: 50%;
+}
+
+.profile-info {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-name {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.profile-occupation {
+    font-size: 14px;
+    font-weight: 400;
+    color: #00529b;
+}
+
+.profile-website {
+    font-size: 12px;
+}
+
+.cta {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-btn {
+    width: 125px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cta-btn-email {
+    color: #b9212a;
+    border-color: #D1D5DB;
+}
+
+.cta-btn-logo{
+     padding-top: 15px;
+}
+
+.cta-btn-web {
+    color: #b9212a;
+    background-color: transparent;
+    border-color:transparent;
+}
+
+.about-link {
+    display: inline-block; /* Makes the link behave like a block-level element */
+    overflow: hidden; /* Ensures the image stays within the rounded border */
+    width: 100px; /* Define the size of the image */
+    height: 100px; /* Keep the height the same as width for a circular shape */
+    justify-content: space-between; /* Space out the images evenly */
+    gap: 10px; /* Add space between the images */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+}
+
+.about-img {
+    width: 80%; /* Ensures the image fills the entire container */
+    height: 80%; /* Keeps the aspect ratio intact */
+    object-fit: cover; /* Ensures the image covers the whole area without stretching */
+    border-radius: 50%; /* Rounds the edges of the image itself */
+    display: flex; /* Use flexbox to arrange the images in a row */
+
+   
+}
+
+.about-section-title {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section-content {
+    font-size: 12px;
+    color: #3645c6;
+    line-height: 1.6;
+}
+
+.social-media {
+    margin-top: 30px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: #12446c;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #ededec;
+    background-image: url('https://www.transparenttextures.com/patterns/paper.png');
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 4px 4px rgba(230, 231, 231, 0.845);
+    text-align: center;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2px;
+    color: #12446c
+}
+
+/* Toggle button styles */
+.toggleButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.qrContainer {
+    margin-bottom: 20px;
+}
