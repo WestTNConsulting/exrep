@@ -1,5 +1,6 @@
 import NAJA from '../images/NAJA.png'
 import LC from '../images/LC.png'
+import Rotary from '../images/Rotary.png'
 
 
 function About() {
@@ -13,7 +14,7 @@ function About() {
                 <img src={NAJA} alt="Profile" className="about-img" />
             </a>
             <a href="https://www.example.com" className="about-link">
-                <img src={NAJA} alt="Profile" className="about-img" />
+                <img src={Rotary} alt="Profile" className="about-img" />
             </a>
            
         </div>
