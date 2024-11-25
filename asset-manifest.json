@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/exrep/static/css/main.a5712597.css",
+    "main.js": "/exrep/static/js/main.ee57daa6.js",
+    "static/media/bc.jpeg": "/exrep/static/media/bc.3ff04f762509db6f703c.jpeg",
+    "static/media/Pro.jpg": "/exrep/static/media/Pro.9c53e66d2d4844eb2773.jpg",
+    "static/media/Logo.png": "/exrep/static/media/Logo.8f9b6dbfcee4c4d36931.png",
+    "static/media/Rotary.png": "/exrep/static/media/Rotary.aeac9398419a7510ad72.png",
+    "index.html": "/exrep/index.html",
+    "main.a5712597.css.map": "/exrep/static/css/main.a5712597.css.map",
+    "main.ee57daa6.js.map": "/exrep/static/js/main.ee57daa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5712597.css",
+    "static/js/main.ee57daa6.js"
+  ]
+}
