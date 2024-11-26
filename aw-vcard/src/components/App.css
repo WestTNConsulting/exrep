@@ -86,8 +86,6 @@ a {
     align-items: center;
     justify-content: center;
     gap: 2px;
-    border-radius: 6px;
-    border: 1px solid black;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -129,8 +127,9 @@ a {
 }
 
 .about-section-title {
-    padding-top: 20px;
-    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 8px;
 }
